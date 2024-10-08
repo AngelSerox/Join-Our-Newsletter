@@ -1,0 +1,74 @@
+html, body {
+    height: 100%; 
+    margin: 0;    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: #FFFFFF;
+}
+
+#Contenedor_general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagen {
+    max-width: 100px; 
+}
+
+#Contenedor_Input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    min-height: 152px;
+    width: 456px;
+    border-radius: 15px;
+    background-color: #FAFAF9;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#p1 {
+    font-family: Poppins, sans-serif;
+    font-size: 1.25rem;
+    color: #6C727F;
+    text-align: center;
+    max-width: 636px; 
+}
+
+#textBox {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    width: 100%; 
+    margin-bottom: 0.5px; 
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+#Button {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3662E3;
+    width: 100%;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#p2 {
+    font-family: Poppins, sans-serif;
+    font-size: 0.875rem;
+    color: #6C727F;
+    text-align: center;
+    margin-top: 10px; 
+}
